@@ -47,6 +47,18 @@
            "bHidden": false
          },
          {
+           "Name": "oSelectJugador",
+           "Position": {
+             "sX": "130",
+             "sY": "45,33332824"
+           },
+           "TabColor": {
+             "sColorDM": "#002C68",
+             "sColorLM": "#97C6FF"
+           },
+           "bHidden": false
+         },
+         {
            "Name": "oWebApp",
            "Position": {
              "sX": "720",
@@ -60,6 +72,18 @@
          },
          {
            "Name": "oZoomEquipo",
+           "Position": {
+             "sX": "130",
+             "sY": "45,33332824"
+           },
+           "TabColor": {
+             "sColorDM": "#002C68",
+             "sColorLM": "#97C6FF"
+           },
+           "bHidden": false
+         },
+         {
+           "Name": "oZoomJugador",
            "Position": {
              "sX": "130",
              "sY": "45,33332824"
