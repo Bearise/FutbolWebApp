@@ -1,0 +1,74 @@
+[Workspace]
+CurrentProject=WebApp.src
+Location=C:\DataFlex Projects\futbol\IdeSrc\Bea_Studio.dsk
+CreateNew=-1
+[TabWindows]
+GroupCount=1
+HorizontalGroups=1
+[TabGroup0]
+GroupSize=40
+SelectedTab=3
+[Window0]
+Filename=C:\DataFlex Projects\futbol\AppSrc\WebApp.src
+ViewType=1
+Top=21
+Left=0
+Bottom=672
+Right=1428
+CursorLine=139
+CursorColumn=22
+TabIndex=2
+TabGroup=0
+[Window1]
+Filename=Workspace Dashboard
+ViewType=101
+Top=21
+Left=0
+Bottom=672
+Right=1428
+TabIndex=0
+TabGroup=0
+[Window2]
+Filename=C:\DataFlex Projects\futbol\AppSrc\Dashboard.wo
+ViewType=1
+Top=21
+Left=0
+Bottom=672
+Right=1428
+CursorLine=74
+CursorColumn=73
+TabIndex=1
+TabGroup=0
+[Window3]
+Filename=C:\DataFlex Projects\futbol\AppSrc\SelectJugador.wo
+ViewType=1
+Top=21
+Left=0
+Bottom=672
+Right=1428
+CursorLine=81
+CursorColumn=43
+TabIndex=4
+TabGroup=0
+[Window4]
+Filename=C:\DataFlex Projects\futbol\AppSrc\ZoomEntrenador.wo
+ViewType=1
+Top=21
+Left=0
+Bottom=672
+Right=1428
+CursorLine=50
+CursorColumn=0
+TabIndex=5
+TabGroup=0
+[Window5]
+Filename=C:\DataFlex Projects\futbol\AppSrc\SelectEntrenador.wo
+ViewType=1
+Top=21
+Left=0
+Bottom=672
+Right=1428
+CursorLine=24
+CursorColumn=15
+TabIndex=3
+TabGroup=0

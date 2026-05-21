@@ -37,12 +37,33 @@ Object oSelectLiga is a cWebView
         Object oligaNombre is a cWebColumn
             Entry_Item liga.Nombre
             Set psCaption to "liga.Nombre"
-            Set piWidth to 1000
+            Set piWidth to 229
+        End_Object 
+        
+        Object oligaPais is a cWebColumn
+            Entry_Item liga.Pais
+            Set psCaption to "liga.Pais"
+            Set piWidth to 230
+            Set pbNewLine to False
+        End_Object 
+
+        Object oligaEquipos is a cWebColumn
+            Entry_Item liga.Equipos
+            Set psCaption to "liga.Equipos"
+            Set piWidth to 219
+            Set pbNewLine to False
+        End_Object 
+
+        Object oligaEquiposMax is a cWebColumn
+            Entry_Item liga.EquiposMax
+            Set psCaption to "liga.EquiposMax"
+            Set piWidth to 214
+            Set pbNewLine to False
         End_Object 
 
         Object oDetailButton is a cWebColumnButton
             Set psCaption to "btn"
-            Set piWidth to 45
+            Set piWidth to 313
             Set pbFixedWidth to True
             Set pbResizable to False
             Set piListRowSpan to 4
@@ -50,7 +71,7 @@ Object oSelectLiga is a cWebView
             Set peAlign to alignRight
 
 // ToDo: Fill in the from-main Zoom view object name for navigate forward
-//            WebRegisterPath ntNavigateForward oZoomView
+           WebRegisterPath ntNavigateForward oZoomLiga
 
             Procedure OnClick
                 Send NavigatePath
@@ -62,26 +83,7 @@ Object oSelectLiga is a cWebView
 
         End_Object 
 
-        Object oligaPais is a cWebColumn
-            Entry_Item liga.Pais
-            Set psCaption to "liga.Pais"
-            Set piWidth to 500
-            Set pbNewLine to True
-        End_Object 
-
-        Object oligaEquipos is a cWebColumn
-            Entry_Item liga.Equipos
-            Set psCaption to "liga.Equipos"
-            Set piWidth to 100
-            Set pbNewLine to True
-        End_Object 
-
-        Object oligaEquiposMax is a cWebColumn
-            Entry_Item liga.EquiposMax
-            Set psCaption to "liga.EquiposMax"
-            Set piWidth to 100
-            Set pbNewLine to True
-        End_Object 
+        
 
 // ToDo: Fill in the from-parent child Select view object name for navigate forward
 //        WebRegisterPath ntNavigateForward oSelectView
